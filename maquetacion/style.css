@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #e9e6e6;
+    font-size: 16px;
+
+}
+button:hover { 
+    color: blue;
+    Background-color: orange
+}
+p {
+    margin-right: 3em;
+}
+
+h1 {
+    margin: 0px 400px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    font-size: 2em;
+    font-weight: 600;
+
+
+}
+button.redondo {
+
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 0px 1.5em;
+    height: 2em;
+}
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+}
+button.redondo:hover{
+    background-color: rgb(14, 13, 22);
+}
+button.important-button:hover{
+    background-color: rgb(100, 79, 215);
+
+}
+
+@media(width >= 2000px){
+    body{
+        font-size: 20px;
+    }
+}
+@media(width >= 4000px){
+    body{
+        font-size: 30px;
+    }
+}
+
